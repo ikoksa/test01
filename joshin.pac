@@ -3,7 +3,7 @@ function FindProxyForURL(url, host) {
 }
 function randomProxy() {
     switch (Math.floor(Math.random() * 2)) {
-        case 0: return "PROXY 1.1.1.1:3128; PROXY 2.2.2.2; PROXY DIRECT; "
-        case 1: return "PROXY 2.2.2.2:3128; PROXY 1.1.1.1; PROXY DIRECT; "
+        case 0: return "PROXY 202.212.123.44:80; PROXY 222.74.202.244; PROXY DIRECT; "
+        case 1: return "PROXY 222.74.202.244:80; PROXY 202.212.123.44; PROXY DIRECT; "
     }
 }
